@@ -1,0 +1,169 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6c81acffbaea668c38df4286a10550b3") format("truetype"),
+url("./flaticon.woff?6c81acffbaea668c38df4286a10550b3") format("woff"),
+url("./flaticon.woff2?6c81acffbaea668c38df4286a10550b3") format("woff2"),
+url("./flaticon.eot?6c81acffbaea668c38df4286a10550b3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6c81acffbaea668c38df4286a10550b3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "tape-measure": "\f101",
+    "abs": "\f102",
+    "weight": "\f103",
+    "test": "\f104",
+    "layout": "\f105",
+    "search": "\f106",
+    "shopping-cart": "\f107",
+    "shopping-cart-1": "\f108",
+    "left-arrow": "\f109",
+    "right-arrow": "\f10a",
+    "whey-protein": "\f10b",
+    "whey": "\f10c",
+    "vitamin": "\f10d",
+    "protein-supplement": "\f10e",
+    "vitamin-1": "\f10f",
+    "fitness": "\f110",
+    "slim-down": "\f111",
+    "strong": "\f112",
+    "vitamins": "\f113",
+    "dumbbell": "\f114",
+    "protein": "\f115",
+    "whey-protein-1": "\f116",
+    "whey-protein-2": "\f117",
+    "whey-1": "\f118",
+    "proteins": "\f119",
+    "supplement": "\f11a",
+    "whey-protein-3": "\f11b",
+    "strong-1": "\f11c",
+    "vitamins-1": "\f11d",
+    "protein-1": "\f11e",
+    "protein-2": "\f11f",
+    "body": "\f120",
+    "abs-1": "\f121",
+    "view": "\f122",
+    "capsule": "\f123",
+    "drug": "\f124",
+);
+
+.flaticon-tape-measure:before {
+    content: map-get($flaticon-map, "tape-measure");
+}
+.flaticon-abs:before {
+    content: map-get($flaticon-map, "abs");
+}
+.flaticon-weight:before {
+    content: map-get($flaticon-map, "weight");
+}
+.flaticon-test:before {
+    content: map-get($flaticon-map, "test");
+}
+.flaticon-layout:before {
+    content: map-get($flaticon-map, "layout");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon-map, "shopping-cart-1");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-whey-protein:before {
+    content: map-get($flaticon-map, "whey-protein");
+}
+.flaticon-whey:before {
+    content: map-get($flaticon-map, "whey");
+}
+.flaticon-vitamin:before {
+    content: map-get($flaticon-map, "vitamin");
+}
+.flaticon-protein-supplement:before {
+    content: map-get($flaticon-map, "protein-supplement");
+}
+.flaticon-vitamin-1:before {
+    content: map-get($flaticon-map, "vitamin-1");
+}
+.flaticon-fitness:before {
+    content: map-get($flaticon-map, "fitness");
+}
+.flaticon-slim-down:before {
+    content: map-get($flaticon-map, "slim-down");
+}
+.flaticon-strong:before {
+    content: map-get($flaticon-map, "strong");
+}
+.flaticon-vitamins:before {
+    content: map-get($flaticon-map, "vitamins");
+}
+.flaticon-dumbbell:before {
+    content: map-get($flaticon-map, "dumbbell");
+}
+.flaticon-protein:before {
+    content: map-get($flaticon-map, "protein");
+}
+.flaticon-whey-protein-1:before {
+    content: map-get($flaticon-map, "whey-protein-1");
+}
+.flaticon-whey-protein-2:before {
+    content: map-get($flaticon-map, "whey-protein-2");
+}
+.flaticon-whey-1:before {
+    content: map-get($flaticon-map, "whey-1");
+}
+.flaticon-proteins:before {
+    content: map-get($flaticon-map, "proteins");
+}
+.flaticon-supplement:before {
+    content: map-get($flaticon-map, "supplement");
+}
+.flaticon-whey-protein-3:before {
+    content: map-get($flaticon-map, "whey-protein-3");
+}
+.flaticon-strong-1:before {
+    content: map-get($flaticon-map, "strong-1");
+}
+.flaticon-vitamins-1:before {
+    content: map-get($flaticon-map, "vitamins-1");
+}
+.flaticon-protein-1:before {
+    content: map-get($flaticon-map, "protein-1");
+}
+.flaticon-protein-2:before {
+    content: map-get($flaticon-map, "protein-2");
+}
+.flaticon-body:before {
+    content: map-get($flaticon-map, "body");
+}
+.flaticon-abs-1:before {
+    content: map-get($flaticon-map, "abs-1");
+}
+.flaticon-view:before {
+    content: map-get($flaticon-map, "view");
+}
+.flaticon-capsule:before {
+    content: map-get($flaticon-map, "capsule");
+}
+.flaticon-drug:before {
+    content: map-get($flaticon-map, "drug");
+}
