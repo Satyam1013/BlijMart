@@ -579,7 +579,7 @@
 }
 .tg-menu-area.menu-area .mobile-nav-toggler {
 	background-image: -moz-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
-	background-image: -webkit-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
+	background-image: -webkit-linear-gradient(5deg, rgb(225 96 66) 0%, rgb(253 60 135) 100%);
 	background-image: -ms-linear-gradient(5deg, rgb(148, 190, 38) 0%, rgb(98, 175, 33) 100%);
 }
 .tg-banner-content .sub-title {
