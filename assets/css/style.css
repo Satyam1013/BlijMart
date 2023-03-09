@@ -1,7 +1,7 @@
 /*
-  Theme Name: Alldaynature 
+  Theme Name: Suxnix - Health Supplement Landing Page
   Support: themegenix@gmail.com
-  Description: Alldaynature .
+  Description: Suxnix - Health Supplement Landing Page.
   Version: 1.0
 */
 
@@ -3851,7 +3851,7 @@ body.search-visible {
 	margin-top: 5px;
     color: #0d9b4d;
 }
-.Alldaynature-page-content blockquote,
+.suxnix-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	margin: 35px 0;
@@ -3868,7 +3868,7 @@ body.search-visible {
 	font-style: italic;
 	font-family: 'Oswald', sans-serif;
 }
-.Alldaynature-page-content blockquote::before,
+.suxnix-page-content blockquote::before,
 .format-quote blockquote::before,
 .blog-details-content blockquote::before {
     content: "";
@@ -3880,7 +3880,7 @@ body.search-visible {
     height: 192px;
     z-index: -1;
 }
-.Alldaynature-page-content blockquote span,
+.suxnix-page-content blockquote span,
 .format-quote blockquote span,
 .blog-details-content blockquote span {
     display: block;
@@ -3891,7 +3891,7 @@ body.search-visible {
     text-transform: unset;
     letter-spacing: 0;
 }
-.Alldaynature-page-content blockquote span > a,
+.suxnix-page-content blockquote span > a,
 .format-quote blockquote span > a,
 .blog-details-content blockquote span > a {
     color: #fff;

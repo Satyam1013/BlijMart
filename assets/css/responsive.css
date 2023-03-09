@@ -201,12 +201,12 @@
 .blog--post--content .blog--post--title {
 	font-size: 32px;
 }
-.Alldaynature-page-content blockquote,
+.suxnix-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	padding: 45px 40px;
 }
-.Alldaynature-page-content blockquote::before,
+.suxnix-page-content blockquote::before,
 .format-quote blockquote::before,
 .blog-details-content blockquote::before {
 	width: 134px;
@@ -241,7 +241,7 @@
 	top: -15px;
 	right: -30px;
 }
-.Alldaynature-shop-product-main > .row {
+.suxnix-shop-product-main > .row {
 	--bs-gutter-x: 20px;
 }
 .shop-sidebar {
@@ -496,7 +496,7 @@
 .features-bg {
 	padding: 120px 0;
 }
-.Alldaynature-page-content blockquote,
+.suxnix-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	font-size: 24px;
@@ -1050,12 +1050,12 @@
 	padding-bottom: 25px;
 	margin-bottom: 25px;
 }
-.Alldaynature-page-content blockquote,
+.suxnix-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	padding: 40px 25px;
 }
-.Alldaynature-page-content blockquote::before,
+.suxnix-page-content blockquote::before,
 .format-quote blockquote::before,
 .blog-details-content blockquote::before {
 	width: 100px;
@@ -1285,7 +1285,7 @@
 .rc-post-content h5 {
 	font-size: 18px;
 }
-.Alldaynature-page-content blockquote,
+.suxnix-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	font-size: 26px;
