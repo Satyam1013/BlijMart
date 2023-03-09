@@ -1,7 +1,7 @@
 /*
-  Theme Name: Suxnix - Health Supplement Landing Page
+  Theme Name: BlijMart - BlijMart
   Support: themegenix@gmail.com
-  Description: Suxnix - Health Supplement Landing Page.
+  Description: BlijMart - BlijMart.
   Version: 1.0
 */
 
@@ -3851,7 +3851,7 @@ body.search-visible {
 	margin-top: 5px;
     color: #e93f55;
 }
-.suxnix-page-content blockquote,
+.BlijMart-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
 	margin: 35px 0;
@@ -3868,7 +3868,7 @@ body.search-visible {
 	font-style: italic;
 	font-family: 'Oswald', sans-serif;
 }
-.suxnix-page-content blockquote::before,
+.BlijMart-page-content blockquote::before,
 .format-quote blockquote::before,
 .blog-details-content blockquote::before {
     content: "";
@@ -3880,7 +3880,7 @@ body.search-visible {
     height: 192px;
     z-index: -1;
 }
-.suxnix-page-content blockquote span,
+.BlijMart-page-content blockquote span,
 .format-quote blockquote span,
 .blog-details-content blockquote span {
     display: block;
@@ -3891,7 +3891,7 @@ body.search-visible {
     text-transform: unset;
     letter-spacing: 0;
 }
-.suxnix-page-content blockquote span > a,
+.BlijMart-page-content blockquote span > a,
 .format-quote blockquote span > a,
 .blog-details-content blockquote span > a {
     color: #fff;
