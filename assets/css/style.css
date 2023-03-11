@@ -16,7 +16,7 @@
 6. Banner
 7. Brand
 8. Features
-9. Features Products
+9. Features supplement
 10. Shop
 11. Video
 12. Fun Fact
@@ -228,6 +228,10 @@ label {
 }
 :root {
 	scroll-behavior: auto;
+	--corprincipal: #000;
+	--cinza: #D6D6D6;
+	--branco: #FFF;
+	--preto: #000;
 }
 
 /* button style */
@@ -1142,7 +1146,7 @@ body.search-visible {
 
 /* 5. Breadcrumb */
 .breadcrumb-bg {
-	background-image: url(../img/bg/video_bg.jpg);
+	background-image: url(../img/bg/bg1.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -1407,28 +1411,28 @@ body.search-visible {
 	margin-left: 50px;
 }
 
-/* 9. Features Products */
-.features-products {
+/* 9. Features supplement */
+.features-supplement {
 	padding: 150px 0 150px;
 	position: relative;
 }
-.features-products-wrap {
+.features-supplement-wrap {
 	margin-bottom: 180px;
 }
-.features-products-wrap:last-child {
+.features-supplement-wrap:last-child {
 	margin: 0 0;
 }
-.features-products-thumb {
+.features-supplement-thumb {
 	position: relative;
 	text-align: center;
 	margin: 0px 137px 0px 212px;
 }
-.features-products-thumb::before {
+.features-supplement-thumb::before {
 	content: "";
 	position: absolute;
 	left: 38%;
 	top: 50%;
-	background-image: url(../img/products/features_product_dots.png);
+	background-image: url(../img/supplement/features_product_dots.png);
 	width: 706px;
 	height: 706px;
 	z-index: -1;
@@ -1436,7 +1440,7 @@ body.search-visible {
 	background-size: contain;
 	transform: translate(-50%, -50%);
 }
-.features-products-thumb .shape-img {
+.features-supplement-thumb .shape-img {
 	position: absolute;
 	bottom: 13px;
 	left: -135px;
@@ -1486,11 +1490,11 @@ body.search-visible {
 	margin-left: 15px;
 	text-decoration: line-through;
 }
-.features-products-thumb .main-img {
+.features-supplement-thumb .main-img {
 	display: inline-block;
 	position: relative;
 }
-.features-products-thumb .main-img::after {
+.features-supplement-thumb .main-img::after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -1503,35 +1507,35 @@ body.search-visible {
 	border-radius: 99px;
 	z-index: -1;
 }
-.features-products-wrap:nth-child(even) .row {
+.features-supplement-wrap:nth-child(even) .row {
 	flex-direction: row-reverse;
 }
-.features-products-wrap:nth-child(even) .features-product-content {
+.features-supplement-wrap:nth-child(even) .features-product-content {
 	margin-left: auto;
 }
-.features-products-wrap:nth-child(even) .features-products-thumb {
+.features-supplement-wrap:nth-child(even) .features-supplement-thumb {
 	margin: 0px 200px 0px 143px;
 }
-.features-products-wrap:nth-child(even) .features-products-thumb .shape-img {
+.features-supplement-wrap:nth-child(even) .features-supplement-thumb .shape-img {
 	bottom: 27px;
 	left: auto;
 	right: -91px;
 }
-.features-products-wrap:nth-child(even) .features-products-thumb::before {
+.features-supplement-wrap:nth-child(even) .features-supplement-thumb::before {
 	left: 74%;
 	top: 40%;
 	transform: translate(-50%, -50%);
 }
-.features-products-wrap .features-products-thumb:hover .shape-img {
+.features-supplement-wrap .features-supplement-thumb:hover .shape-img {
 	transform: translateX(15px);
 }
-.features-products-wrap:nth-child(even) .features-products-thumb:hover .shape-img {
+.features-supplement-wrap:nth-child(even) .features-supplement-thumb:hover .shape-img {
 	transform: translateX(-15px);
 }
-.features-products-wrap:nth-child(3n+3) .features-products-thumb {
+.features-supplement-wrap:nth-child(3n+3) .features-supplement-thumb {
 	margin: 0px 138px 0px 168px;
 }
-.features-products-wrap:nth-child(3n+3) .features-products-thumb .shape-img {
+.features-supplement-wrap:nth-child(3n+3) .features-supplement-thumb .shape-img {
 	left: -122px;
 }
 .fp-shapes-wrap>* {
@@ -2301,7 +2305,7 @@ body.search-visible {
 .product-desc-list li:last-child {
     margin-bottom: 0;
 }
-.related-products-wrap > .title {
+.related-supplement-wrap > .title {
     margin-bottom: 50px;
     font-size: 35px;
 }
@@ -2435,7 +2439,7 @@ body.search-visible {
 .from-btn {
     background-image: linear-gradient(to right, #e93f55 0%, #e93f55 50%, #e93f55 100%);
 }
-.related-products-area {
+.related-supplement-area {
 	margin: -10px 0 0;
 }
 
@@ -4454,7 +4458,7 @@ body.search-visible {
 	opacity: .8;
 }
 .footer-insta-item a::after {
-	content: "\f16d";
+	content: "view";
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -4462,7 +4466,7 @@ body.search-visible {
 	color: #fff;
 	font-family: "Font Awesome 5 Brands";
 	font-weight: 400;
-	font-size: 70px;
+	font-size: 30px;
 	line-height: 1;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
@@ -4922,7 +4926,7 @@ body.search-visible {
 	color: #222222;
 }
 
-/* 7. Supplement */
+/* 7. supplement */
 .tg-supplement-area {
 	position: relative;
 }
@@ -5797,3 +5801,146 @@ body.search-visible {
     font-size: 14px;
     color: #c7c7c7;
 }
+
+
+	
+#telalogin{
+	background: -webkit-linear-gradient(5deg, rgb(225 96 66) 0%, rgb(253 60 135) 100%);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+	
+	justify-content: center;
+	flex-direction: column; 
+	align-items: center;
+	display: flex;
+  
+	text-align: center;
+	height: 100vh;
+	
+	transition: 0.3s;
+}
+
+#telareg{
+	background: -webkit-linear-gradient(5deg, rgb(225 96 66) 0%, rgb(253 60 135) 100%);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+	justify-content: center;
+	flex-direction: column; 
+	align-items: center;
+	display: flex;
+	text-align: center;
+	height: 100%;
+	transition: 0.3s;
+}
+
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+  
+  .container-fundo{
+	box-shadow: 0px 11px 34px #00000033;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border-radius: 15px;
+	max-width: 450px;
+	padding: 50px;
+	height: auto;
+	width: 100%;
+  }
+  
+  #logo-cliente img{
+	max-width: 200px;
+	width: 100%;
+  }
+  
+  .container-logins{
+	padding: 25px 0px;
+	max-width: 440px;
+	margin: auto;
+  }
+  
+  .container-logins .login input{
+	border: 1px solid var(--cinza);
+	box-sizing: border-box;
+	margin: 5px 0 15px 0;
+	color: var(--preto);
+	border-radius: 6px;
+	font-size: 16px;
+	padding: 10px;
+	height: 44px;
+	width: 100%;
+	transition: 0.3s;
+  }
+  
+  .container-logins .login input::placeholder{
+	color: var(--cinza);
+  }
+  
+  .container-logins .login input:focus-visible{
+	outline: 1px solid var(--corprincipal);
+	border: 1px solid var(--corprincipal);
+  }
+  
+  .container-logins .login p{
+	font-size: 14px;
+	opacity: 0.6;
+	margin: 0;
+  }
+  
+  .container-logins .botao-login{
+	background-color: var(--branco);
+	border: 1px solid var(--cinza);
+	border-radius: 6px;
+	margin-top: 30px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 150px;
+	height: 45px;
+	transition: 0.3s;
+	color: #000000;
+  }
+  
+  .container-logins .botao-login:hover{
+	background-color: var(--corprincipal);
+	border: 1px solid var(--corprincipal);
+	color: var(--branco);
+  }
+  
+  .autenticacao{
+	box-shadow: 0px 11px 34px #0000001a;
+	background-color: var(--branco);
+	border-radius: 10px;
+	width: fit-content;
+	padding: 10px 5px;
+	margin: 20px auto;
+	display: flex;
+  }
+  
+  .autenticacao img{
+	margin: 5px 10px 0;
+	cursor: pointer;
+	width: 25px;
+  }
+  
+  #logo-empresa{
+	width: 100%;
+  }
+  
+  #logo-empresa img{
+	max-width: 100px;
+  }
+  
+  @media screen and (max-width: 500px) {
+	.container-fundo {
+	  max-width: 350px;
+	  padding: 35px;
+	}
+  }
